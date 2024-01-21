@@ -1,0 +1,114 @@
+<div class='wrapper'>
+  <div class="container">
+    <header id="home">
+      <nav class="navbar">
+        <h2 class='name'>
+          Code Alchemy
+        </h2>
+        <ul class="navbar__ul">
+          <li class='link'><a href="#home">Início</a></li>
+          <li class='link'><a href="#skills">Habilidades</a></li>
+          <li class='link'><a href="#contact">Contato</a></li>
+          <li>
+            <!-- Dark Theme Toggle  -->
+            @if (isDarkMode) {
+              <button class='darkmode' (click)="setLigthMode()"><span class="material-icons">
+                light_mode
+                </span>
+              </button>
+            }
+            @else {
+              <button class='darkmode' (click)="setDarkMode()"><span class="material-icons">
+                dark_mode
+                </span>
+              </button>
+            }
+          </li>
+        </ul>
+      </nav>
+      <div class="header__container">
+        <div style="font-size: 20px;" class="long_text">
+            Bem-vindo à Code Alchemy, o epicentro da inovação em desenvolvimento de software.
+             Nossa paixão é transformar ideias em realidade através de soluções digitais personalizadas.
+              Com uma equipe de talentosos desenvolvedores, designers e estrategistas,
+               especializamo-nos em criar softwares que não só atendem às suas necessidades,
+                mas também superam as expectativas. Da nuvem ao mobile, da automação à inteligência artificial,
+                 nosso arsenal tecnológico está sempre atualizado com as tendências mais recentes.
+               Em Code Alchemy, não apenas escrevemos código, nós catalisamos a transformação
+             digital que impulsiona seu negócio para o futuro. Vamos juntos criar algo incrível!
+        </div>
+      </div>
+    </header>
+  </div>
+
+  <main class="portfolio" id='portfolio'>
+
+    <section class='skills' id='skills'>
+      <h2>Habilidades</h2>
+      <article class="skills-container">
+        <div class="skills__item" data-aos='fade-up'>
+          <img src="../../assets/js.png" alt="Javascript">
+          <p>Javascript</p>
+        </div>
+
+        <div class="skills__item" data-aos='fade-up'>
+          <img src="https://cdn-icons-png.flaticon.com/512/1051/1051277.png" alt="HTML5">
+          <p>HTML5</p>
+        </div>
+
+        <div class="skills__item" data-aos='fade-up'>
+          <img src="https://cdn-icons-png.flaticon.com/512/732/732190.png" alt="css">
+          <p>CSS3</p>
+        </div>
+
+        <div class="skills__item" data-aos='fade-up'>
+          <img src="https://cdn-icons-png.flaticon.com/512/5968/5968705.png" alt="figma">
+          <p>Figma</p>
+        </div>
+      
+        <div class="skills__item" data-aos='fade-up'>
+          <img src="../../assets/python.png" alt="Python">
+          <p>Python</p>
+        </div>
+        <div class="skills__item" data-aos='fade-up'>
+          <img src="../../assets/angular.png" alt="Angular">
+          <p>Angular</p>
+        </div>
+        <div class="skills__item" data-aos='fade-up'>
+          <img src="../../assets/django.svg" alt="Django">
+          <p>Django</p>
+        </div>
+        <div class="skills__item" data-aos='fade-up'>
+          <img src="../../assets/typescript.png" alt="Typescript">
+          <p>Typescript</p>
+        </div>
+      </article>
+    </section>
+
+    <footer>
+      <div class="wrapper">
+        <div class="footer__text-container" id='contact'>
+          <h2>Contato</h2>
+          <p>Code Alchemy desenvolvimento de software</p>
+          <p>53.498.063/0001-86</p>
+        </div>
+        <div class="footer__text-container1">
+          <p><span class='phone'>Celular</span> <strong>+55 (92) 9114-3999</strong></p>
+          <p><span class='email'>Email</span> <strong>{{"brantis@live.com"}}</strong></p>
+          <p>©2024 por Code Alchemy.</p>
+        </div>
+      </div>
+      <hr class='footer__nav-hr'>
+      <nav class="footer__nav">
+        <h2 class='name'>
+          Code Alchemy
+        </h2>
+        <ul class='footer__nav-links'>
+          <li><a href="#home">Início</a></li>
+          <li class='link'><a href="#skills">Habilidades</a></li>
+          <li><a href="#contact">Contato</a></li>
+        </ul>
+      </nav>
+    </footer>
+  </main>
+</div>
