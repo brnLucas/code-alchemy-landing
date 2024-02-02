@@ -10,7 +10,7 @@ import { RouterOutlet } from '@angular/router';
   styleUrl: './app.component.scss'
 })
 export class AppComponent {
-  title = 'code-alchemy-landing-page';
+  title = 'Dev Alchemist';
   public darkModeButton: any;
   public isDarkMode: boolean = false;
 
